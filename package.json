@@ -1,37 +1,15 @@
 {
-  "name": "Priyansh",
-  "version": "10.1.1",
-  "description": "A simple Facebook Messenger Bot made by 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭.",
-  "main": "Priyansh.js",
-  "engines": {
-      "node": "20.x",
-      "npm": "10.0.0"
-  },
+  "name": "kaz-mirai-bot",
+  "version": "1.0.0",
+  "description": "A simple Facebook Messenger Bot",
+  "main": "index.js",
   "scripts": {
       "start": "node index.js",
-      "login": "node login",
       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
-  "repository": {
-      "type": "git",
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
-  },
-  "keywords": [
-      "bot",
-      "facebook",
-      "projectpriyansh",
-      "messenger",
-      "javasvript",
-      "priyanshu",
-      "prince",
-      "mental"
-  ],
-  "author": "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-  "license": "GPL-3.0",
-  "bugs": {
-      "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
-  },
-  "homepage": "https://github.com/Priyansh-11/Priyansh-bot/issues",
+  "keywords": [],
+  "author": "kazumadev",
+  "license": "ISC",
   "dependencies": {
       "@distube/ytdl-core": "^4.13.2",
       "@miraipr0ject/assets": "^1.0.9",
@@ -60,6 +38,7 @@
       "extract-zip": "^2.0.1",
       "fb-tools": "0.0.1-security",
       "fca-priyansh": "^18.0.0",
+      "fca-delta": "",
       "figlet": "^1.5.2",
       "form-data": "^4.0.0",
       "fs-extra": "^10.1.0",
